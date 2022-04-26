@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS cars (
+    id            INTEGER  PRIMARY KEY AUTOINCREMENT,
+    brand         TEXT     NOT NULL,
+    model         TEXT     NOT NULL,
+    price         INTEGER  NOT NULL,
+    users_id      INTEGER  NOT NULL,
+    FOREIGN KEY   (user_id) REFERENCES users (id)
+);
+
+CREATE TABLE IF NOT EXISTS users (
+    id             INTEGER  PRIMARY KEY AUTOINCREMENT,
+    firstname      TEXT     NOT NULL,
+    lastname       TEXT     NOT NULL,
+    age            INTEGER  NOT NULL,
+    phone          TEXT     NOT NULL
+);
