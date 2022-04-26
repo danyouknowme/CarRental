@@ -3,8 +3,8 @@ CREATE TABLE IF NOT EXISTS cars (
     brand         TEXT     NOT NULL,
     model         TEXT     NOT NULL,
     price         INTEGER  NOT NULL,
-    users_id      INTEGER  NOT NULL,
-    FOREIGN KEY   (user_id) REFERENCES users (id)
+    user_id       INTEGER NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES users (id)
 );
 
 CREATE TABLE IF NOT EXISTS users (
