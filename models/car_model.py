@@ -12,7 +12,7 @@ class CarModel(Base):
     brand = Column(Text, nullable=False)
     model = Column(Text, nullable=False)
     price = Column(Integer, nullable=False)
-    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    user_id = Column(Integer, nullable=False)
 
     def __repr__(self):
         return f"Car(id={self.id!r}, brand={self.brand!r}, model={self.model!r}, price={self.price!r}, user_id={self.user_id!r})"
