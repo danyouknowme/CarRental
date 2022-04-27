@@ -1,5 +1,6 @@
 from utils.car_rental import CarRental
-from models.models import CarModel, UserModel
+from models.car_model import CarModel
+from models.user_model import UserModel
 
 car_rental = CarRental()
 

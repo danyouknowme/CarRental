@@ -1,4 +1,4 @@
-from models.models import CarModel
+from models.car_model import CarModel
 from sqlalchemy.orm.session import Session
 
 
