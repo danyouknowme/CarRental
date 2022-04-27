@@ -1,4 +1,4 @@
-from models.user_model import UserModel
+from models.models import UserModel
 from sqlalchemy.orm.session import Session
 
 
@@ -11,3 +11,9 @@ class UserDao:
 
   def get_all_users(self):
     return self.__session.query(UserModel).all()
+
+  def create_new_user(self, user: UserModel):
+    self.__session.add(user)
+    self.__session.commit()
+    print("Insert new user to the database successfully!")
+    print(user)
