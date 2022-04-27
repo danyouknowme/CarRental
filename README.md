@@ -6,7 +6,7 @@ The car rental database contains the initials data of the users and rent cars.
 [UML class and package diagram of code design]()
 
 
-## Install Instruction
+## Getting Started
 ### Install required packages
 Go to the directory and install the required packages
   ```python
