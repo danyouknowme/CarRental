@@ -1,4 +1,4 @@
-from models.car_model import CarModel
+from models.models import CarModel
 from sqlalchemy.orm.session import Session
 
 
@@ -22,4 +22,5 @@ class CarDao:
   def create_new_rental_car(self, car_rental: CarModel):
     self.__session.add(car_rental)
     self.__session.commit()
-    print("Insert data to the database successfully!")
+    print("Insert car rental data to the database successfully!")
+    print(car_rental)
