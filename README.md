@@ -30,15 +30,7 @@ Run the application
   ```
 ## Project Description
 
-- Domian Diagram
-
-![Domian_Diagram](https://user-images.githubusercontent.com/78087668/165595733-52501c36-bdd7-4485-8ce2-8822fc162060.png)
-
-- Package Diagram
-
-![Package Diagram](https://user-images.githubusercontent.com/78087668/165595347-4b9e4fee-e214-4408-94e9-27675fb922f2.png)
-
-- Class Diagram
-
-![Class Diagram](https://user-images.githubusercontent.com/78087668/165597649-643d7d89-b592-4837-80a3-2c8d4a18cedf.png)
+- [Domain Diagram](../../wiki/Domain-Diagram)
+- [Package Diagram](../../wiki/Package-Diagram)
+- [Class Diagram](../../wiki/Class-Diagram)
 
